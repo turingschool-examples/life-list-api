@@ -1,0 +1,14 @@
+{
+  "name": "life-list-api",
+  "version": "1.0.0",
+  "description": "API to keep track of birding life list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robbie Jaeger",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
