@@ -51,7 +51,7 @@ app.post('/api/v1/birds', checkRequiredProperties(['birdName', 'date', 'place'])
     return highest;
   }, 0) + 1;
 
-  const newBird = {id: newID, ...req.body};
+  const newBird = { id: newID, ...req.body };
   app.locals.birds.push(newBird);
   res.status(201).json(newBird);
 });
