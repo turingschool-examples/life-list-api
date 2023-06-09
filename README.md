@@ -1,8 +1,8 @@
 # Life List API
 
-This API can keep track of all the birds you've seen. Here are the available endpoints:
+This API can keep track of all the birds you've seen. This repo is meant to be paired with the [Life List](https://github.com/turingschool-examples/life-list-fe) frontend.
 
-## Setup Instructions
+## Set Up Instructions
 
 Clone down the repo and change into the repo's directory.
 
