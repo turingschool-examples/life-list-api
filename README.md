@@ -21,6 +21,6 @@ npm start
 | **VERB** | **URL** | **REQUEST BODY** | **SAMPLE RESPONSE** |
 | -------- | ------- | ---------------- | ------------------- |
 | GET | /birds | None | `{ birds: [ { id: 1, birdName: "Horned Lark", date: "05-19-2023", place: "On my head" }, ... ] }` |
-| POST | /birds | `{ birdName: <String>, date: <String>, place: <String> }` | `{ id: <Number>, { birdName: <String>, date: <String>, place: <String> }` |
+| POST | /birds | `{ birdName: <String>, date: <String>, place: <String> }` | `{ id: <Number>, birdName: <String>, date: <String>, place: <String> }` |
 
 **Note:** The POST request needs a header of `Content-Type: application/json`.
